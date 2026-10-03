@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "node scripts/generate-config.mjs && tsc --project tsconfig.json",
+    "build": "node scripts/generate-config.mjs && tsc --project tsconfig.json && node scripts/prepare-dist.mjs",
     "dev": "node scripts/generate-config.mjs && node serve.mjs 3000",
     "preview": "node scripts/generate-config.mjs && node serve.mjs 3000"
   },
