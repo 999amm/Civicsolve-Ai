@@ -1,0 +1,13 @@
+{
+  "name": "civicsolve-ai-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node scripts/generate-config.mjs && tsc --project tsconfig.json",
+    "dev": "node scripts/generate-config.mjs && node serve.mjs 3000",
+    "preview": "node scripts/generate-config.mjs && node serve.mjs 3000"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
