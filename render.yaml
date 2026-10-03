@@ -19,7 +19,7 @@ services:
     runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    staticPublishPath: .
     envVars:
       - key: CIVICSOLVE_API
         fromService:
